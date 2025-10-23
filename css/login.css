@@ -19,8 +19,11 @@ body {
     width: 400px;
     text-align: center;
     justify-content: center;
+    transition: transform 0.5s ease;
 }
-
+.login-container:hover{
+    transform: scale(1.03);
+}
 
 .login-container h2 {
     margin-bottom: 2rem;
@@ -59,7 +62,12 @@ body {
     background-color: #3f569a;
   
 }
-
+a{
+    font-weight: bold;
+}
+a:visited{
+    color:#0b5eda;
+}
 .login-container p {
     margin-top: 1rem;
 }

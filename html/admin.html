@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin - Luxury Store</title>
-    <link rel="stylesheet" href="../css/dmin.css">
+    <link rel="stylesheet" href="../css/admin.css">
 </head>
 <body>
     <header>
         <div class="logo">Luxury Store Admin</div>
-        <nav>
+        <nav id="nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="admin.html">Admin</a></li>
@@ -18,15 +18,17 @@
     </header>
 
     <section class="admin">
+        <div id="admin-container">
         <h2>Admin Dashboard</h2>
         <form id="add-product-form">
             <input type="text" id="product-name" placeholder="Product Name" required>
-            <input type="number" id="product-price" placeholder="Price" required>
+            <input type="text" id="product-price" placeholder="Price" required>
             <input type="text" id="product-image" placeholder="Image URL" required>
-            <textarea id="product-description" placeholder="Description" required></textarea>
+            <input type="text" id="product-description" placeholder="Description" required>
             <button type="submit">Add Product</button>
         </form>
         <div id="product-list">
+        </div>
         </div>
     </section>
 

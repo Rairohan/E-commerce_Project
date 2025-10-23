@@ -1,4 +1,4 @@
-/* Reset some defaults */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Body Styling */
+
 body {
     background-image: url(../imgs/meroimg.png);
     background-repeat: no-repeat;
@@ -17,7 +17,7 @@ body {
     height: 100vh;
 }
 
-/* Container */
+
 .login-container {
     background-color: #f0c237a7;
     padding: 2.5rem;
@@ -26,16 +26,20 @@ body {
     width: 100%;
     max-width: 400px;
     text-align: center;
+    transition: transform 0.5s ease;
+}
+.login-container:hover{
+    transform: scale(1.05);
 }
 
-/* Heading */
+
 .login-container h2 {
     margin-bottom: 1.5rem;
     color: #080707;
     font-size: 2rem;
 }
 
-/* Form Inputs */
+
 #register-form input {
     width: 100%;
     padding: 0.75rem;
@@ -51,7 +55,7 @@ body {
     outline: none;
 }
 
-/* Submit Button */
+
 #register-form button {
     width: 100%;
     padding: 0.75rem;
@@ -70,7 +74,7 @@ body {
     background-color: #1d5db5;
 }
 
-/* Redirect Text */
+
 .login-container p {
     margin-top: 1rem;
     font-size: 0.95rem;
